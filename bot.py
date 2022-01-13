@@ -18,3 +18,6 @@ async def embed(ctx):
 await ctx.send(embed=embed)
 
 bot.run(os.environ["DISCORD_TOKEN"])
+
+client = discord.Client()
+client.run(os.environ["DISCORD_TOKEN"])
