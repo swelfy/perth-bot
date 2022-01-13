@@ -8,7 +8,7 @@ rulesdesc = "**RULES**\n\nNo spam - moderators will not tolerate spam\nNo advert
 
 @bot.command()
 async def embed(ctx):
-    embed=discord.Embed(title="Welcome to the Discord server for Perth Crypto Crew", description=''.j   oin(rulesdesc), color=0xeb0057)
+    embed=discord.Embed(title="Welcome to the Discord server for Perth Crypto Crew", description=''.join(rulesdesc), color=0xeb0057)
     await ctx.send(embed=embed)
 
 bot.run(os.environ["DISCORD_TOKEN"])
