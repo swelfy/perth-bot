@@ -10,3 +10,4 @@ async def add(ctx, left: int, right: int):
 client = discord.Client()
 client.run(os.environ["DISCORD_TOKEN"])
 
+bot.run(os.environ["DISCORD_TOKEN"])
