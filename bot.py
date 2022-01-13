@@ -6,7 +6,7 @@ bot = commands.Bot(command_prefix='$')
 
 @bot.command()
 async def embed(ctx):
-    mbed=discord.Embed(title="Welcome to the Discord server for Perth Crypto Crew", color=0xeb0057)
+    embed=discord.Embed(title="Welcome to the Discord server for Perth Crypto Crew", color=0xeb0057)
     embed.add_field(value="No spam - moderators will not tolerate spam", inline=False)
     embed.add_field(value="No advertising or affiliate links without ADMIN permission", inline=False)
     embed.add_field(value="Be respectful at all times, kindness is required", inline=False)
