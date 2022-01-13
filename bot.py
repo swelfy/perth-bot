@@ -4,7 +4,7 @@ import os
 
 bot = commands.Bot(command_prefix='$')
 
-@@bot.command()
+@bot.command()
 async def embed(ctx):
     embed=discord.Embed(title="Welcome to the Discord server for Perth Crypto Crew", color=0xeb0057)
     embed.add_field(value="No spam - moderators will not tolerate spam", inline=False)
